@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Carte </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shop</h1> 
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> About </a></li>
+            <li  id="cart" ><a href="#"> <span class="glyphicon glyphicon-shopping-cart"></span>Cart </a></li>
+        </ul>   
+    </header>
+    
+    <main>  
+        <div class="content">
+        <div class="cart-header">
+            <h2 class="product">Products</h2>
+            <h2 class="Quantity">Quantity</h2>
+            <h2 class="prices"> Price</h2>
+            <!-- <h2 class="total">Total</h2> -->
+        </div>
+        <div class="article">
+       
+               <img src="img/robe noir.jpg" alt="robe">
+               <p>Robe noire</p>
+            
+            <div class="quantity">   
+               <button class="moins">-</button>
+               <p class="Qty">1</p> 
+               <button class="add">+</button>
+            </div>
+            <div class="price">
+               <p class="priceNumber"> 180  </p>
+               <p> DT </p>
+            </div>
+        
+            <img id="heart" src="heartNull.png" width="60" height="60">
+            <button type="button" id="delete">DELETE</button>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="img/robe verte.jpeg" alt="robe">
+            <p>Robe verte</p>
+            <div class="quantity"> 
+                <button class="moins">-</button>
+                <p class="Qty">1</p> 
+                <button class="add">+</button>
+            </div>
+            <div class="price">  
+            <p class="priceNumber"> 150</p>
+            <p> DT </p>
+            </div>
+            <img id="heart" src="heartNull.png" width="60" height="60">
+            <button type="button" id="delete" >DELETE</button>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="img/robe-noire-avec-bolero-voile-transparent-et-col-r.jpg" alt="robe">
+            <p>Robe noire <br> avec bolero</p>
+            <div class="quantity">
+                
+            <button class="moins">-</button>
+            <p class="Qty">1</p> 
+            <button class="add">+</button>
+            </div>
+            <div class="price">
+                <p class="priceNumber"> 250 </p>
+                <p> DT </p>
+            </div>    
+            <img id="heart" src="heartNull.png" width="60" height="60">
+            <button type="button" id="delete" >DELETE</button>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="img/talon-noir.jpg" alt="talon">
+            <p>Talon Noir</p>
+            <div class="quantity">
+                
+            <button class="moins">-</button>
+            <p class="Qty">1</p> 
+            <button class="add">+</button>
+            </div>
+            <div class="price">
+                <p class="priceNumber"> 95 </p>
+                <p> DT </p>
+            </div>
+            <img id="heart" src="heartNull.png" width="60" height="60">
+            <button type="button" id="delete" >DELETE</button>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="img/talon noir2.jpg" alt="talon">
+            <p>Talon noir</p>
+            <div class="quantity">
+                
+            <button class="moins">-</button>
+            <p class="Qty">1</p> 
+            <button class="add">+</button>
+            </div>
+            <div class="price">
+                <p class="priceNumber"> 80 </p>
+                <p> DT </p>    
+            </div>
+            <img id="heart" src="heartLike.png" width="40" height="40" >
+            <button type="button" id="delete" >DELETE</button>
+        </div>
+     </div>
+
+     <aside>
+            <div class="commander"> 
+                <h3 class="total-price">Total price : </h3>
+                <h4 id="tp"> 755 </h4>
+                <div class="dt">
+                    <h4> DT </h4>  
+                </div>
+                
+             </div>
+             <a href="#" class="MakePrice" > Make purchase </a>
+     </aside>       
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

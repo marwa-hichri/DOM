@@ -1,0 +1,152 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+ 
+}
+header {
+  background-image:url('une-shopping.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  position: relative;
+  border : 1px solid darkorange;
+  display: flex;
+  justify-content: space-between;
+  height: 136px;
+  padding:5%;
+  background-color: rgb(231, 225, 225);
+  
+}
+h1{
+  font-family: fantasy;
+}
+header ul {
+  display: flex;
+  width: 25%;
+  list-style: none;
+}
+header li {
+  margin-right: 2%;
+  border: 1px solid black;
+  width: 60px;
+  height: 40px;
+  padding: 8px;
+  background-color: black;
+  border-radius: 5px;
+  border-color:#EF6349 ;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  color: #EF6349;
+}
+#cart {
+  background-color: black;
+}
+main{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  margin: 14%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+
+}
+.cart-header{
+  display: flex;
+  margin:5%;
+  border-bottom: 4px solid lightgray;
+  font-size: large;
+}
+.cart-header h2 {
+  font-size: 24px;
+}
+.product{
+  width: 50%;
+}
+.Quantity {
+
+  width: 17%;
+}
+.prices{
+  width: 15%; 
+}
+.total{
+  width: 15%;  
+}
+.article {
+  display: flex;
+  margin:5%;
+  width: 108%;
+}
+.article p {
+  margin-left: 1%;
+}
+.article img {
+  width:15%;
+}
+.quantity {
+
+  display: flex;
+  width: 32%;
+  padding-left: 21%;
+}
+.price{
+  display: flex;
+  padding-right: 170px;
+}
+
+i {
+  width: 5%;
+}
+.quantity button {
+  height: 10%;
+  width: 15%;
+  font-weight: bold;
+  background-color: rgb(235, 226, 226);
+  border: none;
+  border-radius: 5px;
+}
+.commander {
+  width: 156%;
+  margin-left: 33%;
+  display: flex;
+  margin-top: 90%;
+  
+}
+.commander h4 {
+ margin-top: 23px;
+ margin-right: 17px;
+}
+
+.MakePrice {
+  
+  background: yellowgreen;
+  font-size: inherit;
+  border: none;
+  border-radius: 22px;
+  padding: 21px;
+  color: white;
+  text-decoration: none;
+  
+}
+.MakePrice a:hover {
+  color: indigo;
+}
+
+.myColor{
+  color: red;
+}
+aside a {
+  position: absolute;
+  right: 6%;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+.content {
+  width: 126%;
+}
+
